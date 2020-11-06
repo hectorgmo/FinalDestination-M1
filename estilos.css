@@ -1,0 +1,64 @@
+/* Header navigation bar */
+body {
+    background-color: #fffbf7;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fffbf7;
+}
+
+.header ul li {
+    display: inline;
+    margin-left: 1.5em;
+}
+
+.header .action > * {
+    margin-right: 1.5em;
+}
+
+/* Introduction */
+.intro > h1 {
+    font-size: 3.5em;
+    color: rgb(7, 7, 136);
+    margin-top: 100px;
+}
+
+.intro > * {
+    text-align: center;
+    align-items: center;
+}
+
+.intro > * {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.intro {
+    margin-bottom: 120px;
+}
+
+/* Video intro */
+.video {
+    display: flex;
+    width: 70%;
+}
+
+.video article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-right: 250px; */
+    padding: 0 0 0 30px;
+}
+
+.video 
+
+.video div {
+    display: flex;
+    flex-direction: column;
+}
